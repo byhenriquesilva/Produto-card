@@ -31,8 +31,8 @@ Os usuários devem ser capazes de:
 
 ### Links
 
-- URL da solução: [Site da solução](https://your-solution-url.com)
-- URL do site ao vivo: [Site ao vivo](https://your-live-site-url.com)
+- URL da solução: [Site da solução]([https://your-solution-url.com](https://www.frontendmentor.io/solutions/responsive-product-preview-card-L6ui1EBPw6))
+- URL do site ao vivo: [Site ao vivo]([https://your-live-site-url.com](https://byhenriquesilva.github.io/Produto-card/))
 
 ## Meu processo
 
