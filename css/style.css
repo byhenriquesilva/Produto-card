@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+}
+body{
+    background-color: hsl(30, 38%, 92%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;     
+}
+img{
+    width: 300px;
+}
+.conteiner{
+    display: flex;
+    height: 450px;
+    border-radius: 10px;
+    width: 600px;
+}
+.icon{
+  width: 20px;
+  padding-top: 0px;
+  background-color: hsl(158, 36%, 37%);
+  margin-right: 10px;
+  border-radius: 0%;
+}
+.perfume{
+  padding: 30px 30px 20px 30px;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  letter-spacing: 3px;
+  font-size: 13px;
+}
+.title{
+  padding: 0 60px 20px 30px;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: hsl(212, 21%, 14%);
+  font-size: 30px;
+}
+.subtitle{
+  padding: 0 30px 30px 30px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  font-size: 15px;
+}
+.price{
+  padding: 0 30px 10px 30px;
+  display: flex;
+  font-family: 'Fraunces', serif;
+  font-weight: 700;
+  color: hsl(158, 36%, 37%);
+  font-size: 35px;
+}
+.value{
+  padding: 13px 30px 30px 30px;
+  text-decoration: line-through;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  color: hsl(228, 12%, 48%);
+  font-size: 12px;
+}
+.button{
+  background-color:  hsl(158, 36%, 37%);
+  padding: 15px;
+  border-radius: 10px;
+  margin-left: 30px;
+  margin-right: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: hsl(0, 0%, 100%);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  cursor: pointer;
+}
+@media screen and (max-width :580px){
+  .conteiner{
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;   
+  }
+  .text{
+    width: 300px;
+  }
+  body{
+    height: 970px;
+    background-color: hsl(0, 0%, 100%);
+  }
+  .icon{
+    border-radius: 0px;
+  }
+}
+* {
+  scrollbar-width: thin;
+  scrollbar-color: transparent transparent;
+}
+*::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: transparent;
+  border-radius: 20px;
+  border: 0px solid transparent;
+}
